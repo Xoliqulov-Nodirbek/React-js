@@ -7,9 +7,9 @@ import "./assets/css/bootstrap.min.css";
 
 function App() {
     return (
-            <div class="container my-5">
+            <div className="container my-5">
                 <Header />  
-                <div class="row mt-5">
+                <div className="row mt-5">
                     <ParrotsBody />
                     <ParrotsList / >
                 </div>
