@@ -1,4 +1,4 @@
-const ParrotsBody = () => {
+const ParrotsFilter = () => {
     
     return (
         <div className="col-3">
@@ -58,4 +58,4 @@ const ParrotsBody = () => {
         
     }
 
-export default ParrotsBody;
+export default ParrotsFilter;
