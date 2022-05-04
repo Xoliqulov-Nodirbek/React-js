@@ -19,6 +19,7 @@ const ParrotsBody = () => {
                                 price={parrot.price}
                                 birthDate={parrot.birthDate}
                                 sizes={parrot.sizes}
+                                img={parrot.img}
                             />
                             ))};
                 </ul>

@@ -1,8 +1,8 @@
-const ParrotsCard = ({title, price, sizes, birthDate}) => {
+const ParrotsCard = ({title, price, sizes, birthDate, img}) => {
     return (
         <li className="col-6 product-line">
             <div className="card product-card">
-            <img className="card-img-top product-img" src="https://media.istockphoto.com/photos/parrot-hyacinth-macaw-picture-id1359443019?b=1;k=20;m=1359443019;s=170667a;w=0;h=dteRZ9bM7sEvBbFE9it1r9O7IxlILXb1UnSoLNEVMAg=" />
+            <img className="card-img-top product-img" src={img} alt={title} />
             <div className="card-body product-body">
                 <h3 className="card-title product-title">{title}</h3>
                 <p className="card-text fw-bold product-price"><mark className="product-mark">$ {price}</mark></p>
